@@ -1,7 +1,7 @@
 import { createUserWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
 import auth from "../../firebase/firebase.config";
 import { useState } from "react";
-import { FaEye, FaEyeSlash, FaPhotoVideo } from 'react-icons/fa';
+import { FaEye, FaEyeSlash} from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
 
